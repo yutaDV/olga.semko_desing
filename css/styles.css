@@ -36,13 +36,13 @@ button {
 
 img {
     display: block;
-    height: auto;
     max-width: 100%;
 }
 
 body {
-    background-color: #fbfbfb;
-    font-family: 'Gilroy', sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .container {
@@ -92,4 +92,115 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+/* header */
+.header-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:  rgba(248, 241, 21, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.logo-container {
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.71;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e1c31;
+}
+
+.logo-part-header {
+    color: #da9a07;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.71;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1e1c31;
+    display: flex;
+    gap: 15px;
+}
+
+.menu-item {position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+.menu-link:hover {
+    color: #da9a07;
+    font-weight: 600;
+}
+
+.menu-link:focus {
+    color: #da9a07;
+    font-weight: 600;
+}
+
+.menu-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.social-list-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.social-icon {
+    fill: #da9a07;
+    stroke:#da9a07;
+
+}
+
+.social-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-item {
+    width: 40px;
+    height: 40px;
+
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #111110;
+
+}
+
+
+
+.services{
+    font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.26667;
+        color: #1e1c31;
 }

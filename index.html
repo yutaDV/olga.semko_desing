@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Poppins:ital,wght@0,300;0,500;0,600;1,200&display=swap"
+        rel="stylesheet" />
     <!-- Modern Normalize link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <!-- Own styles link -->
@@ -18,30 +20,55 @@
 </head>
 
 <body>
-    <header>
-        <a href="./index.html" class="logo">olga.semko<span class="logo-part-header">_design</span></a>
-        <ul class="menu">
-            <li class="menu-item"> Послуги </li>
-            <li class="menu-item"> Питання відповіді </li>
-            <li class="menu-item"> Відгуки</li>
-            <li class="menu-item"> Контакти</li>
-        </ul>
+    <header class="container  header-container">
+        <div class="logo-container">
+            <img src="/img/avatar.png" alt="avatar" width="40" height="40">
+            <a href="./index.html" class="logo">olga.<span class="logo-part-header">semko_design</span></a>
+        </div>
+        <div class="menu-container">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a  class="menu-link" href="#portfolio">Послуги</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="">Питання відповіді</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="">Відгуки</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link"  href="">Контакти</a>
+                </li>
+            </ul>
+
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a href="" class="social-link">
+                        <svg class="social-icon" width="16" height="16" aria-label="instagram icon">
+                            <use href="/img/icon.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>            
+            
+        </div>
+
 
     </header>
 
     <main>
-        <section class="hero">
-            <h1>ОЛЬГА СЕМКО РІЛС-МЕЙКЕР МОНТАЖ ВІДЕО ОФОРМЛЕННЯ СТОРІНОК ЧЕРКАСИ</h1>
+        <section class="hero container">
+            <h1 class="services">ОЛЬГА СЕМКО РІЛС-МЕЙКЕР МОНТАЖ ВІДЕО ОФОРМЛЕННЯ СТОРІНОК ЧЕРКАСИ</h1>
 
         </section>
-        <section class="about_me">
+        <section class="about_me container">
             <p>Привіт! Я Оля, рілс-мейкер і дизайнер. Маю успішний досвід роботи
             від створення аватарки до ведення сторінки. Допоможу тобі
             зекономити час на створенні контенту, а також заробляти більше</p>
         </section>
-        <section class="portfolio"></section>
-        <section class="questions"></section>
-        <section class="comments"></section>
+        <section id= "portfolio" class="portfolio container">fgfdsgsfggs</section>
+        <section class="questions container"></section>
+        <section class="commentscontainer "></section>
     </main>
     <footer></footer>
 </body>
