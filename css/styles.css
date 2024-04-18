@@ -107,13 +107,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
-    
 }
 .logo-container {
 display: flex;
 align-items: center;
 gap: 10px;
+flex-grow: 2;
 
 }
 
@@ -141,6 +140,7 @@ display: none;
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-right: 8px;
 }
 
 .social-list-link {
@@ -184,6 +184,7 @@ display: none;
     stroke: #da9a07;
     background-color: transparent;
     border: none;
+    margin-right: 8px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -248,6 +249,55 @@ display: none;
     }
 
 }
+
+
+/* header */
+
+.hero {
+        padding-top: 320px;
+        padding-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 768px;
+        background-image: linear-gradient(to bottom, rgba(239, 133, 2, 0.2), rgba(173, 173, 176, 0.2
+        )),
+            url("../img/hero@2x.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+
+.hero-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: lowercase;
+
+}
+.hero-title{
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #f8c569;
+    margin-bottom: 8px;
+}
+.hero-name{
+    text-transform: capitalize;
+    font-size: 52px;
+    color: #fff;
+}
+.hero-last-name{
+    margin-left: 80px;
+}
+
 
 .services{
     font-family: "Poppins", sans-serif;
