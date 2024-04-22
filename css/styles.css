@@ -329,10 +329,49 @@ display: none;
     }   
 }
 
-.services{
+.about-me {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    max-width: 768px;
+    background-image: linear-gradient(to bottom, rgba(173,
+        173,
+        176,
+        0.2), rgba(173, 173, 176, 0.2)),
+        url("../img/about-me-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;}
+
+.about-me-container {}
+
+
+.title-section {
+    margin-top: 24px;
+    margin-bottom: 200px;
+    color: #FFFFFF;
+
+}
+
+.list-services {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    
+}
+
+.item-services {
     font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 1.26667;
-        color: #1e1c31;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.27;
+    color: #da9a07;;
+}
+
+.text-about-me{
+    margin-top: 60px;
 }
