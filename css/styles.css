@@ -40,7 +40,7 @@ img {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -385,7 +385,6 @@ display: none;
 }
 
 .item-services {
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 12px;
     text-align: center;
