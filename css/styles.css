@@ -254,7 +254,7 @@ display: none;
 }
 
 
-/* header */
+/* hero */
 
 .hero {
         margin-top: 60px;
@@ -262,7 +262,7 @@ display: none;
         padding-bottom: 60px;
         margin-left: auto;
         margin-right: auto;
-        max-width: 768px;
+        max-width: 375px;
         background-image: linear-gradient(to bottom, rgba(239, 133, 2, 0.1), rgba(173, 173, 176, 0.2
         )),
             url("../img/hero.png");
@@ -329,19 +329,19 @@ display: none;
     }   
 }
 
+/* about me */
 .about-me {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     color: #000000;
-    max-width: 768px;
+    max-width: 375px;
     background-image: linear-gradient(to bottom, rgba(173, 173, 176, 0.2), rgba(239, 133, 2, 0.2)),
         url("../img/about-me-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    border-top: 2px solid #9b9ca3;
     border-bottom: 2px solid #9b9ca3;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -358,7 +358,7 @@ display: none;
 .title-section {
         
     margin-top: 24px;
-    margin-bottom: 340px;
+    margin-bottom: 360px;
     color: #000000;
     font-size: 36px;
     font-style: italic;
