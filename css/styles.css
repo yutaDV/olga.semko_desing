@@ -379,9 +379,7 @@ display: none;
 .list-services {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-
-    
+    gap: 8px; 
 }
 
 .item-services {
@@ -396,4 +394,48 @@ display: none;
 
 .text-about-me{
     margin-top: 20px;
+}
+.about-me-img{
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+    .about-me {
+        min-width: 1280px;
+        background-image: none;
+    }
+    .about-me-img {
+            display: inline
+        }
+    .about-me-content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .about-me-container{
+        display: flex;
+    }
+    .title-section {
+        
+    margin-top: 48px;
+    margin-bottom: 160px;
+    font-size: 48px;
+    }
+
+    .title-section.shadow {
+    color: #da9b0786;
+    font-size: 60px;
+    top: -80px;
+    left: 210px;
+    }
+    .list-services {
+    gap: 10px; 
+    }
+    .item-services {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #da9a07;
+    }
+    .text-about-me {
+    font-size: 24px;
+    }
 }
