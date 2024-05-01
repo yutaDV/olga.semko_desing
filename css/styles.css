@@ -35,7 +35,7 @@ button {
 }
 
 img {
-    display: block;
+    display: inline;
     max-width: 100%;
 }
 
@@ -48,6 +48,14 @@ body {
 .container {
 
     margin: 0 auto;
+}
+
+.section-title{
+    color: #da9a07;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -98,7 +106,7 @@ body {
     z-index: 1000;
     width: 100%;
     top: 0;
-    background-color: rgba(246, 238, 2, 0.9);
+    background-color: rgba(255, 255, 255, 0.895);
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -352,13 +360,12 @@ display: none;
     position: relative;
     text-align: center;
     color: black;
+    margin-top: 24px;
+    margin-bottom: 360px;
 
 }
 
-.title-section {
-        
-    margin-top: 24px;
-    margin-bottom: 360px;
+.title-section {        
     color: #000000;
     font-size: 36px;
     font-style: italic;
@@ -371,7 +378,7 @@ display: none;
     font-size: 48px;
     font-style: normal;
     position: absolute;
-    top: -44px;
+    top: -24px;
     left: 48px;
     z-index: 1;
 }
@@ -395,47 +402,117 @@ display: none;
 .text-about-me{
     margin-top: 20px;
 }
-.about-me-img{
-    display: none;
-}
 @media only screen and (min-width: 768px) {
     .about-me {
-        min-width: 1280px;
-        background-image: none;
+        background-image: linear-gradient(to bottom, rgba(239, 133, 2, 0.1), rgba(173, 173, 176, 0.2)),
+                url("../img/about-desk-bagraunt.jpg");
+        min-height: 600px;        
+        max-width: 1280px;
     }
     .about-me-img {
-            display: inline
+            display: inline;
+
         }
     .about-me-content{
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 45%;
     }
     .about-me-container{
         display: flex;
+        max-width: 1280px;
     }
     .title-section {
         
-    margin-top: 48px;
-    margin-bottom: 160px;
+    margin-top: 100px;
+    margin-bottom: 80px;
     font-size: 48px;
     }
 
     .title-section.shadow {
-    color: #da9b0786;
-    font-size: 60px;
-    top: -80px;
-    left: 210px;
+    display: none;
     }
     .list-services {
     gap: 10px; 
     }
     .item-services {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
-    color: #da9a07;
     }
     .text-about-me {
-    font-size: 24px;
+    font-size: 20px;
+    }
+}
+
+
+/* about  services*/
+
+.about-services{
+    padding-bottom: 24px;
+}
+
+.about-services-list {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+}
+
+.about-services-list-item {
+    width: 100%;
+}
+
+.about-services-list-item-title {
+    background-color: #da9a07;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.about-services-list-item-text {
+    font-weight: 500;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+@media only screen and (min-width: 768px) {
+
+    .about-services {
+            padding-bottom: 32px;
+        }
+    .about-services-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+    }
+
+    .about-services-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+
+    .about-services {
+        padding-bottom: 36px;
+        
+    }
+    .about-services-list-item {
+        width: calc((100% - 72px) / 3);
+    }
+
+    .about-services-list-item-title {
+        font-size: 28px;
+    }
+
+    .about-services-list-item-text{
+        font-weight: 400;
+        font-size: 20px;
     }
 }
