@@ -54,8 +54,8 @@ body {
     color: #da9a07;
     text-align: center;
     font-size: 42px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -423,14 +423,14 @@ display: none;
     .about-me-content{
         padding-left: 20px;
         padding-right: 20px;
-        max-width: 45%;
+        max-width: 40%;
     }
     .about-me-container{
         display: flex;
         max-width: 1280px;
     }
-    .title-section {
-        
+    
+    .title-wrapper {   
     margin-top: 100px;
     margin-bottom: 80px;
     font-size: 48px;
@@ -462,7 +462,7 @@ display: none;
 .about-services-list {
         display: flex;
         flex-direction: column;
-        gap: 36px;
+        gap: 16px;
 }
 
 .about-services-list-item {
