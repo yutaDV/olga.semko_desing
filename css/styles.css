@@ -53,9 +53,9 @@ body {
 .section-title{
     color: #da9a07;
     text-align: center;
-    font-size: 42px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -67,10 +67,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    .section-title{
-        font-size: 48px;
-    }
-    
+
     .container {
         max-width: 768px;
         padding-left: 32px;
@@ -83,9 +80,6 @@ body {
         max-width: 1280px;
         padding-left: 65px;
         padding-right: 65px;
-    }
-    .section-title{
-        font-size: 60px;
     }
 }
 
@@ -520,4 +514,63 @@ display: none;
         font-weight: 400;
         font-size: 14px;
     }
+}
+
+
+/* questions-answers*/
+.questions-answers-list-item {
+    margin-bottom: 20px;
+}
+
+.question-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+
+.questions-answers-list-item-question {
+    font-size: 20px;
+    color: #da9a07;
+
+}
+
+.questions-answers-list-item-answer {
+    font-size: 12px;
+    display: none;
+        /* Початково відповідь прихована */
+    padding-top: 10px;
+}
+.questions-answers-list-item.active .questions-answers-list-item-answer {
+    display: block;
+    max-height: 500px;
+    /* Максимальна висота для анімації */
+}
+.toggle-answer {
+    background-color: transparent;
+    border: none;
+    color: #da9a07;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-answer:hover,
+.toggle-answer:focus {
+    background-color: #f8c569;
+    border-radius: 10px;
+    /* Сірий фон при наведенні та фокусі */
+    outline: none;
+    /* Відсутність контуру при фокусі */
+}
+
+@media only screen and (min-width: 768px){
+    .answers-answers-list-item-question {
+            font-size: 24px;
+        }
+    
+    .questions-answers-list-item-answer {
+        font-size: 20px;
+        }
 }
