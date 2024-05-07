@@ -425,9 +425,11 @@ display: none;
     }
     
     .title-wrapper {   
-    margin-top: 100px;
-    margin-bottom: 80px;
-    font-size: 48px;
+    margin-top: 124px;
+    margin-bottom: 36px;
+    font-size: 57px;
+    text-transform: uppercase;
+    font-weight: 700;
     }
 
     .title-section.shadow {
@@ -435,6 +437,8 @@ display: none;
     }
     .list-services {
     gap: 10px; 
+    font-weight: 700;
+    font-size: 17px;
     }
     .item-services {
     font-weight: 600;
@@ -442,7 +446,8 @@ display: none;
     text-align: center;
     }
     .text-about-me {
-    font-size: 20px;
+    padding-top: 46px;    
+    font-size: 17px;
     }
 }
 
