@@ -41,7 +41,7 @@ img {
 
 body {
     font-family: "Montserrat", sans-serif;
-    color: #434455;
+    color: #111111;
     background-color: #FFFFFF;
 }
 
@@ -367,7 +367,7 @@ display: none;
 }
 
 .title-section {        
-    color: #000000;
+    color: #111111;
     font-size: 36px;
     font-style: italic;
     position: relative;
@@ -578,4 +578,25 @@ display: none;
     .questions-answers-list-item-answer {
         font-size: 20px;
         }
+}
+/* modal menu*/
+.modal {
+        background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            right: 0;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-modal-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #da9a07;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
